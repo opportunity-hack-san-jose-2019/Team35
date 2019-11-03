@@ -15,7 +15,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-For any further information please contact Silivon Valley Black Chamber of Commerce: 
+For any further information please contact Silicon Valley Black Chamber of Commerce: 
 
 https://blackchamber.com
 
