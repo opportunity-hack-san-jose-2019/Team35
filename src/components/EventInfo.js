@@ -21,6 +21,7 @@ class EventInfo extends Component {
                 <img className="map" src="map-example" alt="" />
                 <button>attendee</button>
                 <button>contributor</button>
+                
             </div>
         )
     }
