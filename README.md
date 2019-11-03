@@ -7,8 +7,8 @@ The event manager is a web application that organizes various events held by the
 
 The application is a standalone webpage where any user, vendor or local businesses can sign up and/or volunteer. 
 
-```https://example.com 
-```
+https://example.com 
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
