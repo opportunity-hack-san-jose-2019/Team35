@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-// import Form from "./components/Form"
+import Home from "./components/Home"
 import EventInfo from "./components/EventInfo"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-
 class App extends Component {
   constructor() {
     super()
@@ -13,13 +12,18 @@ class App extends Component {
   
   render() {
     return (
-      <div className="container">
+      <div className="body-container">
+    
+        <Router>
 
-        <EventInfo />
-        
-        <Button className="attendee-button" variant="info">Attendee</Button>
+          <Switch>
+            <Route path="/" exact component = {Home} />
+            <Route path="/EventInfo" exact component = {EventInfo} />
+          </Switch>
 
-      </div>      
+        </Router>
+
+      </div>
     )
   }
 

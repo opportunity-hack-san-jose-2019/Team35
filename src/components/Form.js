@@ -4,7 +4,7 @@ import "../css/Form.css";
 function Form() {
 
     return(
-        <div class="container">
+        <div className="attendee-form">
             <h1><u>Sign Up Form</u></h1>
             <form>
 
