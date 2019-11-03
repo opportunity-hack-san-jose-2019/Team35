@@ -3,7 +3,7 @@
 The event manager is a web application that organizes various events held by the Chamber of Commerce in a simplified view.
 
 
-## Installation
+## Site
 
 The application is a standalone webpage where any user, vendor or local businesses can sign up and/or volunteer. 
 
@@ -14,6 +14,10 @@ https://example.com
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+For any further information please contact Silivon Valley Black Chamber of Commerce: 
+
+https://blackchamber.com
 
 ## License
 MIT License
