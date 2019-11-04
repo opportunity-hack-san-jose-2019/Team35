@@ -1,0 +1,7 @@
+.container {
+    text-align: center;
+}
+
+form p, form input {
+    display: inline-block;
+}

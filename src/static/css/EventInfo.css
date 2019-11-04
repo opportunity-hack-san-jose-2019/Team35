@@ -1,23 +1,41 @@
-/* body {
-    height: 100hh;
-    background-size: cover;
-} */
-
-.event-info {
-    margin-top: 50px;
-    padding: 50px auto;
-    width: 100%;
+body, html {
     height: 100%;
-    text-align: center;
+    padding: 0px;
+    padding-bottom: 100px;
 }
 
-.map {
+.event-info {
+    margin: 0 auto;
+    padding: 50px auto;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    background-color: whitesmoke
+}
+
+.event-info a .return-button {
+    margin-top: 100px;
+}
+
+.event-info h1, .event-info h5, .event-info h2, .event-info h4 {
+    margin: 50px auto;
+}
+
+.event-info h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.event-info h5 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.map-image {
     width: 50%;
-    height: 150px;
-    background-color: gray;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 button {
     display: block;
-    margin: auto;    
 }

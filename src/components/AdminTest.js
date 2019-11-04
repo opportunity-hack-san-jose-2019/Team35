@@ -112,7 +112,7 @@ class AdminTest extends Component {
                 {console.log(this.state.eventNames.date)}
                 <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                    Dropdown Button
+                    Create Event
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>

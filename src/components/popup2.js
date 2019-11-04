@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Form from "../components/Form";
-import "../static/css/Popup.css";
+import Form2 from "../components/Form2";
 
  
 
-class Popup extends Component {
+class Popup2 extends Component {
 
     state = {
         modalstate : false
@@ -31,12 +30,12 @@ class Popup extends Component {
        
         return (
             <div>
-            <Button onClick={this.showModal}>Contributors</Button>
+            <Button onClick={this.showModal}>Attendees</Button>
             <Modal show={this.state.modalstate} >
             <Modal.Header closeButton onClick={this.closeModal}>
               <Modal.Title></Modal.Title>
             </Modal.Header>
-            <Modal.Body> <Form /> </Modal.Body>
+            <Modal.Body> <Form2 /> </Modal.Body>
             <Modal.Footer>
               <Button variant="primary" onClick={this.closeModal}>
                 Close
@@ -49,6 +48,5 @@ class Popup extends Component {
     }
 }
 
-export default Popup;
-
+export default Popup2;
 

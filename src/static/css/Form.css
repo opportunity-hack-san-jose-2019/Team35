@@ -1,7 +1,11 @@
 .container {
     text-align: center;
+    
 }
 
 form p, form input {
-    display: inline-block;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
 }
+
